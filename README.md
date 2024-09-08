@@ -124,8 +124,7 @@ Let's use this website: [click](https://www.elon.edu/u/academics/business/manage
     <summary><b>Task 4: Extraction information from a webpage</b></summary>
 
 ```
-You will read a webpage and extract information from it. I will share the webpage with you. You must read the webpage and extract all text contents.
-When you are ready, state only "Please provide the webpage adress".
+You will read the following webpage content and state "READY" when you are ready.
 ```
 
 ```
