@@ -124,18 +124,19 @@ Let's use this website: [click](https://www.elon.edu/u/academics/business/manage
     <summary><b>Task 4: Extraction information from a webpage</b></summary>
 
 ```
-You will read the following webpage content and state "READY" when you are ready.
-```
+Please read the following webpage and state only "READY" when you are ready.
 
+--- 
+### Webpage Content
 ```
-Based on the webpage, Please extract information and generate a table in the following format:
+This is a list of professors and their titles. Please extract information from this list and generate a table in the following format:
 
 | Name | Title | Research Interest | E-Mail |
 
 ```
 
 ```
-Now, for the top four professors, please write an email to template whether they have publsihed a recent research paper to put on the Newsletter. Mention their research areas to show your interest.
+Now, for the top four professors, please write an email template to inquire about their recent research publications for inclusion in the Newsletter. Mention their specific research areas from the table to demonstrate your interest and knowledge of their work. If their research area is not in the table, please omit that professor.
 ```
 
 </details>
