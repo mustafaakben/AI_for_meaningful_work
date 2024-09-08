@@ -90,13 +90,13 @@ Could you please read the attached document and wait for my next instructions.
 ```
 We will analyze the data step-by-step. For each next stage, please wait for my approval.  
 
-1) Calculate the attendance rate for each workshop, find the most popular and least popular workshop, show the bar chart by department of workshop.
+Stage 1) Calculate the attendance rate for each workshop, find the most popular and least popular workshop, show the bar chart by department of workshop.
 
-2) Analyze the factors that might have influenced these faculty and staff members rating such as workshop topic, duration, professor, prerequisite level.
+Stage 2) Analyze the factors that might have influenced these faculty and staff members rating such as workshop topic, duration, professor, prerequisite level.
 
-3) Find which workshops are most popular among different majors, create a box plot.
+Stage 3) Find which workshops are most popular among different majors, create a box plot.
 
-4) Finally, find which professor receives the highest grade and attendance, create bar chart.
+Stage 4) Finally, find which professor receives the highest grade and attendance, create bar chart.
 
 Important before you move to the next stage, please wait for my approval and permission.
 ```
@@ -124,12 +124,21 @@ Let's use this website: [click](https://www.elon.edu/u/academics/business/manage
     <summary><b>Task 4: Extraction information from a webpage</b></summary>
 
 ```
-This is a list of professors and their titles. Please extract information from this list and generate a table in the following format:
+You will read a webpage and extract information from it. I will share the webpage with you. You must read the webpage and extract all text contents.
+When you are ready, state only "Please provide the webpage adress".
+```
+
+```
+Based on the webpage, Please extract information and generate a table in the following format:
 
 | Name | Title | Research Interest | E-Mail |
 
-Now, for the top four professors, please write an email to inquire whether they are looking for a research assistant. Mention their research areas to show your interest.
 ```
+
+```
+Now, for the top four professors, please write an email to template whether they have publsihed a recent research paper to put on the Newsletter. Mention their research areas to show your interest.
+```
+
 </details>
 
 ---
