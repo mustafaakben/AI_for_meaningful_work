@@ -135,6 +135,7 @@ This is a list of professors and their titles. Please extract information from t
 
 | Name | Title | Research Interest | E-Mail |
 
+For top 8 professors and do not use Python.
 ```
 
 ```
