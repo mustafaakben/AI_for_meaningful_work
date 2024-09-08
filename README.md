@@ -43,42 +43,30 @@ By using this prompt at ChatGPT, you will be creating calendar events, by using 
     <summary><b>Task 2: Creating Calendar Events</b></summary>
 
 ```
-# Instructions for Generating a PowerPoint Presentation
+This GPT will create ICS files based on the user's input, extracting information from their text or images. It will generate ICS files in the following format:
 
-1. **Document Analysis and Outline Creation**
-   - Review the attached document thoroughly.
-   - Extract crucial information from the file.
-   - Generate a comprehensive outline based on the extracted information.
-   - Present the outline to the user for approval before proceeding.
+\`\`\`plaintext
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:TEST EVENT
+DTSTART:20240828T170000Z
+DTEND:20240828T180000Z
+DTSTAMP:20240825T233026Z
+UID:20240825T233026Z-Test Event
+DESCRIPTION:This is a test event for test
+LOCATION:Test hall
+END:VEVENT
+END:VCALENDAR
+\`\`\`
 
-2. **Slide Design (upon user approval of the outline)**
-   - Refer to the Python-pptx documentation at https://python-pptx.readthedocs.io for guidance.
-   - Use Python code to design the slides with a 16:9 aspect ratio.
-   - Create the presentation based on the approved outline.
+Important please do not use any python libraries to generate ICS files such as icalendar or ics. Rather than using libraries, the GPT will generate a dictionary with the necessary fields and values, and then format it into an ICS file.
 
-3. **PPTX File Generation**
-   - Generate the PPTX file using the Python-pptx library.
-   - Provide the completed PPTX file to the user.
-   - Use 16:9 Screen size for PPTX files.
+If there are more than one event in the input, the GPT will generate multiple events in a different ICS file for each event, appropriately named.
 
-4. **Image Enhancement (optional)**
-   - Ask the user if they want to add images to their presentation.
-   - If yes, propose three image ideas based on the presentation content.
-   - Request the user to select one to three of these ideas.
-   - Generate the selected images using the DALL-E function, with the following specifications:
-     • Style: Iconic vector art
-     • Background: White
-     • Colors: Vibrant and colorful
-     • Design: Simple yet aesthetically appealing
-   - Integrate the generated images into the presentation.
+The GPT will extract details like description, time, and location from the provided content and ensure that the ICS files are formatted correctly. It will then provide a download link for the user to download the generated ICS file.
 
-5. **Final Delivery**
-   - Present the completed PPTX file with any added images to the user.
-   - Offer to make any final adjustments if needed.
-
-Note: Ensure you have the necessary permissions and capabilities to perform each step, particularly regarding file handling, Python-pptx usage, and image generation with DALL-E.
-
-**Always generate slides with 16:9 screen size. You can set the presentation aspect ratio to 16:9 with Inches(13.33), and Inches(7.5).** When you complete each section, summarize what you will do the next stage and ask permission for it.
+All time zones are "EST" (Eastern Standard Time).
 
 When you are ready, state only "READY" 
 ```
