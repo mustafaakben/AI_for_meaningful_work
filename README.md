@@ -126,7 +126,7 @@ Save the report without any truncation and added images as a WORD file with the 
 </details>  
 
 
-### Task 4: Extraction information from a webpage
+### Task 4: Extraction Information from a Webpage
 In this task, you will be extracting information from a webpage. 
 
 Let's use this website: [click](https://www.elon.edu/u/academics/business/management/faculty/)
