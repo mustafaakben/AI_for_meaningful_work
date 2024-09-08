@@ -19,7 +19,7 @@ This section will be regularly updated as new resources become available.
 ## Working with AI
 ---
 
-## Task 1: Generating Meeting Minutes and Action Items with Zoom's AI Companion
+### Task 1: Generating Meeting Minutes and Action Items with Zoom's AI Companion
 
 Zoom's AI Companion can help you automatically generate meeting minutes and action items. Here's how to use it:
 
@@ -35,7 +35,7 @@ Important Notes:
 
 For a detailed guide on setting up Zoom's AI Companion, watch this tutorial video: [How to Set Up Zoom's AI Companion](https://elonuniversity-my.sharepoint.com/:v:/g/personal/makben_elon_edu/EfqdCT0smw5LgQWUyDx8t60BsMti3XEQ_K28fY-fEqmI_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wP3Zb6)
 
-
+---
 ### Task 2: Creating Calendar Events
 By using this prompt at ChatGPT, you will be creating calendar events, by using either text input or the images.
 
@@ -85,6 +85,7 @@ When you are ready, state only "READY"
 
 </details>
 
+---
 ### Task 3: Data Analysis
 In this task, you will be analyzing data for your need. 
 
@@ -125,7 +126,7 @@ Save the report without any truncation and added images as a WORD file with the 
 ```
 </details>  
 
-
+---
 ### Task 4: Extraction Information from a Webpage
 In this task, you will be extracting information from a webpage. 
 
@@ -143,7 +144,7 @@ Now, for the top four professors, please write an email to inquire whether they 
 ```
 </details>
 
-
+---
 ### Task 5: PowerPoint Slide Generator
 In this task, you will be generating a PowerPoint slide.
 
@@ -192,7 +193,7 @@ When you are ready, state ONLY "READY".
 ```
 </details>
 
-
+---
 ### Task 6: Planning – Critical Path Method
 This task is designed to help faculty and staff plan and manage complex projects using the Critical Path Method (CPM). It's particularly useful when:
 
