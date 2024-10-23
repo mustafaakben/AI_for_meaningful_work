@@ -11,7 +11,7 @@ This section will be regularly updated as new resources become available.
 - [Elon's Enterprise Copilot](https://copilot.microsoft.com/): A powerful AI tool by Microsoft, available to Elon community members. Access requires signing in with your Elon email address.
 
 ### Additional AI Tools
-- [Chat GPT Helper] (https://chatgpt.com/g/g-QfijfbnMO-chatgpt-helper): A custom ChatGPT-based assistant designed to help develop productivity applications.
+- [Chat GPT Helper](https://chatgpt.com/g/g-QfijfbnMO-chatgpt-helper): A custom ChatGPT-based assistant designed to help develop productivity applications.
 - [Event Scheduler](https://chatgpt.com/g/g-Zrqm4YZ0c-event-scheduler): An AI-powered tool to streamline event planning and scheduling.
 - [SlideGPT](https://chatgpt.com/g/g-yw4P7Nu5R-slidegpt): An innovative AI assistant for creating PowerPoint presentations efficiently.
 
